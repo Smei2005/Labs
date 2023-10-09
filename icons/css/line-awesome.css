@@ -2829,6 +2829,10 @@ readers do not read off random characters that represent icons */
 .la-paw:before {
   content: "\f1b0"; }
 
+.la-cat-face::before{
+  content: "\f";
+}
+
 .la-paypal:before {
   content: "\f1ed"; }
 
