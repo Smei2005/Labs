@@ -316,7 +316,7 @@ footer{
 }
 
 #footer_text1{
-	margin: -140px 10px 0px 120px;
+	margin: -200px 10px 0px 120px;
 	color: #FFF;
 	font-weight: 300;
 	font-size: 18px;
@@ -325,7 +325,7 @@ footer{
 #footer_text2{
 	text-align: center;
 	color: #FFF;
-	margin: -50px 0px 0px 0px;
+	margin-top: 60px;
 }
 
 #email{
@@ -374,10 +374,38 @@ footer{
 	margin-left: 500px;
 }
 
-#soc_link{
-	display: grid;
-	grid-template-columns: 50% 50% 50%;
-	margin-left: 1170px;
-	margin-top: -270px;
-	width: 100px;
+.footer_text{
+	display: inline-grid;
+	grid-template-rows: 50% 50%;
 }
+
+#soc_link{
+	display: inline-grid;
+	grid-template-columns: 50% 50% 50%;
+	margin-left: 370px;
+	margin-top: 20px;
+}
+
+#soc_text{
+	margin-left: 430px;
+	text-decoration: underline;
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+#soc_div{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.soc_ico{
+	padding: 10px;
+	transition: transform 0.3s;
+}
+
+.soc_ico:hover{
+	transform:scale(80%);
+
+}
+
