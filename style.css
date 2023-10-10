@@ -199,6 +199,7 @@ a{
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 50px;
+	margin-bottom: 100px;
 	border: 5px solid #4141419e;
 	border-radius: 50px;
 	padding: 0px 100px 70px 0px;
@@ -331,3 +332,26 @@ footer{
 	color:bisque;
 	font-weight: 600;
 }
+
+#map{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#map_text{
+	display: inline;
+	margin-left: 460px;
+	text-decoration:underline;
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+#video1{
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+
