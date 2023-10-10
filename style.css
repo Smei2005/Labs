@@ -354,6 +354,20 @@ footer{
 	margin-top: 40px;
 }
 
+#audio1{
+	display: flex;
+	flex-direction: column;
+	margin-left: 440px;
+	margin-top: 50px;
+}
+
+#audio_text{
+	margin-left: 80px;
+	margin-bottom: -2px;
+	font-family: Inter;
+	font-weight: 300;
+}
+
 #SinoptikInformer{
 	margin-top: 50px;
 	margin-left: 500px;
