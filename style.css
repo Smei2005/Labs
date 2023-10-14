@@ -409,3 +409,20 @@ footer{
 
 }
 
+#map_2d{
+	filter:invert(90%);
+}
+
+#weather_text{
+	margin-bottom: 50px;
+	margin-left: 405px;
+	text-decoration: underline;
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+#map1{
+	display: flex;
+	flex-direction: column;
+}
