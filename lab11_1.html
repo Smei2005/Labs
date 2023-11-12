@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Робота з діалоговими вікнами</title>
+	</head>
+	<body>
+		<script> 
+			const username = 'admin'; 
+			const password = 1234;
+			var bool_conf = false;
+		 	var conf_username = false;
+			var conf_password = false;
+			
+			alert('Аутентифікація');
+			bool_conf = confirm('Хочете продовжити');
+
+			if(bool_conf){
+				conf_username = (username == prompt("User"));
+				conf_password = (password == prompt("Password"));
+
+				conf_username && conf_password ? alert('Вітаю ви аутентифіковані!'):
+				alert('Неправильний ввід, перезавантажте сторінку і спробуйте ще раз');
+			}
+			else alert('Ви вийшли, дякую що відвідали наш сайт');
+
+		</script>
+	</body>
+</html>
