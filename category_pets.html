@@ -31,7 +31,7 @@
                     <a style="display: flex; flex-direction: row; justify-content: space-between;" class="logo" href="index.html">
                         <img src="images/favicon.ico" style="width: 50px; border-radius: 30px;">
                         <h1 style="color:aliceblue; margin-top: 10px;" class="entry__title">AnimalBlog</h1>
-                    </a>
+                        </a>
                 </div> <!-- end header__logo -->
 
                 <!-- header__social -->
@@ -81,7 +81,13 @@
                             <li><a href=" /category_word.html#point">Тварини у Світі</a></li>
                             </ul>
                         </li>
-                        <li><a href=" /blogs.html#point" title="">Блоги</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">Блог</a>
+                            <ul class="sub-menu">
+                            <li><a href="single-video.html">Відео пости</a></li>
+                            <li><a href="single-standard.html">Стандартні пости</a></li>
+                            </ul>
+                        </li>
                         <li><a href="about.html" title="">Про нас</a></li>
                         <li><a href="contact.html" title="">Контакти</a></li>
                     </ul> <!-- end header__nav -->
@@ -108,17 +114,17 @@
             </div>
         </div>
         
-        <div class="row postimage-wrap">
-            <div class="postimage">
+        <div class="row masonry-wrap">
+            <div class="masonry">
 
                 <div class="grid-sizer"></div>
 
-                <article class="postimage__brick entry format-standard" data-aos="fade-up">
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
                         
                     <div class="entry__thumb">
                         <a href="single-standard.html" class="entry__thumb-link">
-                            <img src="images/thumbs/postimage/fennec.jpg" 
-                                    srcset="images/thumbs/postimage/lamp-400.jpg 1x, images/thumbs/postimage/fennec.jpg 2x" alt="">
+                            <img src="images/thumbs/masonry/fennec.jpg" 
+                                    srcset="images/thumbs/masonry/lamp-400.jpg 1x, images/thumbs/masonry/fennec.jpg 2x" alt="">
                         </a>
                     </div>
     
@@ -149,7 +155,7 @@
     
                 </article> <!-- end article -->
 
-                <article class="postimage__brick entry format-quote" data-aos="fade-up">
+                <article class="masonry__brick entry format-quote" data-aos="fade-up">
                         
                     <div class="entry__thumb">
                         <blockquote>
@@ -160,12 +166,12 @@
                     </div>   
     
                 </article> <!-- end article -->
-                <article class="postimage__brick entry format-standard" data-aos="fade-up">
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
                         
                     <div class="entry__thumb">
                         <a href="single-standard.html" class="entry__thumb-link">
-                            <img src="images/thumbs/postimage/Dirr.jpg" 
-                                    srcset="images/thumbs/postimage/tulips-400.jpg 1x, images/thumbs/postimage/Dirr.jpg 2x" alt="">
+                            <img src="images/thumbs/masonry/Dirr.jpg" 
+                                    srcset="images/thumbs/masonry/tulips-400.jpg 1x, images/thumbs/masonry/Dirr.jpg 2x" alt="">
                         </a>
                     </div>
     
@@ -192,12 +198,12 @@
     
                 </article> <!-- end article -->
 
-                <article class="postimage__brick entry format-standard" data-aos="fade-up">
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
 
                     <div class="entry__thumb">
                         <a href="single-standard.html" class="entry__thumb-link">
-                            <img src="images/thumbs/postimage/risse.jpg" 
-                                    srcset="images/thumbs/postimage/cookies-400.jpg 1x, images/thumbs/postimage/risse.jpg 2x" alt="">
+                            <img src="images/thumbs/masonry/risse.jpg" 
+                                    srcset="images/thumbs/masonry/cookies-400.jpg 1x, images/thumbs/masonry/risse.jpg 2x" alt="">
                         </a>
                     </div>
     
@@ -224,8 +230,8 @@
     
                 </article> <!-- end article -->
 
-            </div> <!-- end postimage -->
-        </div> <!-- end postimage-wrap -->
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
 
         <div class="row">
             <div class="col-full">
@@ -267,7 +273,7 @@
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/postimage/Dirr.jpg" alt="">
+                            <img src="images/thumbs/masonry/Dirr.jpg" alt="">
                         </a>
                         <h5><a href="#0">Зомбі олень</a></h5>
                         <section class="popular__meta">
@@ -277,7 +283,7 @@
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/postimage/OurPlanet.jpg" alt="">
+                            <img src="images/thumbs/masonry/OurPlanet.jpg" alt="">
                         </a>
                         <h5><a href="#0">Життя на нашій планеті</a></h5>
                         <section class="popular__meta">
@@ -287,7 +293,7 @@
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/postimage/fennec.jpg" alt="">
+                            <img src="images/thumbs/masonry/fennec.jpg" alt="">
                         </a>
                         <h5><a href="#0">Фенек дрібний герой з Великими Вухам</a></h5>
                         <section class="popular__meta">
